@@ -1,2 +1,2 @@
-# sticky-header
-jQuery plugin for sticky header
+# Sticky Header
+Simple jQuery plugin for making sticky header.
