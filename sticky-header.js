@@ -1,5 +1,5 @@
 /*
- *  jQuery $elem v1.0.0
+ *  jQuery Sticky Header v1.0.0
  *
  *  Copyright (c) 2016 Danish Iqbal
  *  http://plugins.imdanishiqbal.com/sticky-header
@@ -7,7 +7,6 @@
  *  Licensed under MIT
  *
  */
-
 (function($) {
     "use strict";
     $.fn.stickMe = function(options) {
