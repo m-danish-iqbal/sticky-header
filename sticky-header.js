@@ -1,8 +1,7 @@
 /*
  *  jQuery Sticky Header v1.0.0
- *
- *  Copyright (c) 2016
- *  http://plugins.imdanishiqbal.com/sticky-header
+ *  Author: Danish Iqbal
+ *  Website: http://plugins.imdanishiqbal.com/sticky-header
  *
  *  Licensed under MIT
  *
