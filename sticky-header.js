@@ -1,5 +1,5 @@
 /*
- *  jQuery Sticky Header v1.0.0
+ *  jQuery Sticky Header v1.0.1
  *  Author: Danish Iqbal
  *  Website: http://plugins.imdanishiqbal.com/sticky-header
  *
@@ -12,6 +12,7 @@
         // Assigning variables
         var $window = $(window),
             $document = $(document),
+            $elemTopOffset,
             $body = $('body'),
             position = 0,
             $elem = this,
@@ -42,6 +43,9 @@
             settings.topOffset = 0;
             stick();
         }
+
+        $elemTopOffset = $elem.offset().top;
+        alert($elemTopOffset);
 
         function $elem_slide() {
             if (settings.animate === true && settings.transitionStyle === 'slide' && settings.stickyAlready !== true) {
@@ -109,7 +113,7 @@
                 $elem.trigger('bottom-reached');
             }
             if (settings.triggerAtCenter === true) {
-                if ($pos < 1) {
+                if ($pos < (1 + $elemTopOffset)) {
                     unstick();
                 }
             }
