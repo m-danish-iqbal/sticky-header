@@ -45,7 +45,6 @@
         }
 
         $elemTopOffset = $elem.offset().top;
-        alert($elemTopOffset);
 
         function $elem_slide() {
             if (settings.animate === true && settings.transitionStyle === 'slide' && settings.stickyAlready !== true) {
