@@ -3,6 +3,8 @@ Simple jQuery plugin for making sticky header.
 <br>
 <a href="http://plugins.imdanishiqbal.com/sticky-header/" target="_blank">Complete Guide and Demo</a>
 <br>
+<br>
+Wordpress Version: <a href="https://wordpress.org/plugins/advanced-sticky-header/" target="_blank">https://wordpress.org/plugins/advanced-sticky-header/</a>
 <h2>HTML</h2>
 <pre class="line-numbers language-markup"><code>&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.min.js&quot;&gt;&lt;/script&gt; 
 &lt;script type=&quot;text/javascript&quot; src=&quot;js/sticky-header.js&quot;&gt;&lt;/script&gt;
